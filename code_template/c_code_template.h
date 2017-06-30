@@ -9,7 +9,7 @@
 *
 * Author : Damon Zhang
 * Website: https://damon-yun.github.io/blog.github.io/
-* E-mail : 276062421@qq.com
+* E-mail : damoncheung@foxmail.com
 *
 * -----------------------------------------------------------------------------
 *
@@ -17,6 +17,21 @@
 * it under the terms of the GNU General Public License as published by
 * the Free Software Foundation; either version 2 of the License, or
 * (at your option) any later version.
+*
+* Code is distributed in the hope that it will be useful, but WITHOUT
+* ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+* FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
+* or GNU Library General Public License, as applicable, for more details.
+*
+* Redistribution and use in source and binary forms, with or without modification,
+* are permitted provided that the following conditions are met:
+*
+* o Redistributions of source code must retain the above copyright notice, this list
+*   of conditions and the following disclaimer.
+*
+* o Redistributions in binary form must reproduce the above copyright notice, this
+*   list of conditions and the following disclaimer in the documentation and/or
+*   other materials provided with the distribution.
 *
 * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
 * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
@@ -30,7 +45,7 @@
 * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 *
 * -----------------------------------------------------------------------------
-*
+* 
 * @file
 * Dynamic memory manager
 *
@@ -84,22 +99,28 @@ extern "C" {
  
  
 /*******************************************************************************
- * #define region: constant & MACRO defined here                              
+ * Public define region: constant & MACRO defined here                              
  ******************************************************************************/
 
 /*******************************************************************************
  * extern region: extern global variable & function prototype                 
  ******************************************************************************/
 
+/*****************************************************************************
+ * Private types/enumerations/variables
+ ****************************************************************************/
+
 
 /*****************************************************************************
  * Public types/enumerations/variables
  ****************************************************************************/
 
+
 /*****************************************************************************
- * Public functions
+ * Private functions
  ****************************************************************************/
- 
+
+
 /*****************************************************************************
  * Public functions
  ****************************************************************************/
@@ -111,8 +132,8 @@ extern "C" {
  *
  * \retval  AM_OK      : 回调函数设置成功
  * \retval -AM_EINVAL  : 设置失败，参数错误
- * \note 分配引脚可转移功能前，如果引脚有特殊功能，应先取消引脚的特殊功能
- *       #amhw_lpc82x_swm_pin_fixed_func_disable() 取消引脚的特殊功能
+ * \note  
+ *        
  */
  
 /**
