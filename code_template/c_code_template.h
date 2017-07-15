@@ -10,7 +10,6 @@
 * Author : Damon Zhang
 * Website: https://damon-yun.github.io/blog.github.io/
 * E-mail : damoncheung@foxmail.com
-*
 * -----------------------------------------------------------------------------
 *
 * This program is free software; you can redistribute it and/or modify
@@ -44,12 +43,6 @@
 * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 *
-* -----------------------------------------------------------------------------
-* 
-* @file
-* Dynamic memory manager
-*
-* -----------------------------------------------------------------------------
 *******************************************************************************/
 
 /**
